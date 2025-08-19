@@ -26,7 +26,7 @@ jobs:
         
     
     - name: Install cypress
-      run: npm i -g cypress
+      run: npm i ci cypress
 
     - name: Run cypress tests
-      run: npm run cy:run
+      run: npm run cy:runspec
