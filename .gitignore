@@ -139,3 +139,4 @@ dist
 .pnp.*
 
 cypress/screenshots/
+cypress/downloads
