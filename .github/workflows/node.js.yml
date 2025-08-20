@@ -24,9 +24,8 @@ jobs:
       with:
         node-version: '18'
         
-    
-    - name: Install cypress
-      run: npm i ci cypress
+    - name: Install libs
+      run: npm i
 
     - name: Run cypress tests
       run: npm run cy:runspec
