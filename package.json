@@ -7,7 +7,8 @@
     "test": "cypress open",
     "cy:open": "concurrently -k \"npm run server\" \"wait-on http://localhost:8086/ && npm run test\"",
     "cy:run": "concurrently -k \"npm run server\" \"wait-on http://localhost:8086/ && npx cypress run\"",
-    "cy:runspec": "cypress run -b chrome"
+    "cy:runspec": "cypress run -b chrome",
+    "cy:runfolder": "cypress run -s cypress/e2e/passed_tests -b chrome"
   },
   "keywords": [],
   "author": "",

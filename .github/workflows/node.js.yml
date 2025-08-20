@@ -28,4 +28,4 @@ jobs:
       run: npm i
 
     - name: Run cypress tests
-      run: npm run cy:runspec
+      run: npm run cy:runfolder
